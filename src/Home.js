@@ -12,7 +12,7 @@ const Home = () => {
               and bring ideas to reality.
             </p>
             <a href="#contact" className="hello-btn">Say Hello 👋</a>
-            <a className="works" href="/">
+            <a className="works" href="https://docs.google.com/document/d/1-F7EBGKu9q-UjAWuiqZlmWIwn-l8V7dHELPmU9r18Mc/edit">
               Resume ↗
             </a>
           </article>
