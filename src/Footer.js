@@ -1,10 +1,12 @@
-import './css/footer.css';
-import { SocialIcon } from 'react-social-icons';
+import "./css/footer.css";
+import { SocialIcon } from "react-social-icons";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <h1>Let s Connect</h1>
+    <div className="footer" id="contact">
+      <h1>Let's Connect 😉</h1>
+      <hr />
+      <br />
       <p>
         I m very open minded , love to solve porblems using tech and lastly a
         team player that loves to work with others and share ideas. Some of the
@@ -47,30 +49,44 @@ const Footer = () => {
           </svg>
           : <a href="mailto:mofyan39@gmail.com">mofyan39@gmail.com</a>
         </p>
-        <div className='socials'>Connect with me: <SocialIcon url="https://www.linkedin.com/in/mofya-ndabala-10a97b138/?originalSubdomain=zm" style={{
-            width:"30px",
-            height:"30px",
-            marginLeft:"5px"
-        }}/>
-        <SocialIcon url="https://github.com/HoodLegend" style={{
-            width:"30px",
-            height:"30px",
-            marginLeft:"10px"
-
-        }} className='github-icons'/>
-                <SocialIcon url="https://twitter.com/mofyandabala_27" style={{
-            width:"30px",
-            height:"30px",
-            marginLeft:"10px",
-
-        }}/></div>
+        <div className="socials">
+          {" "}
+          <b>Connect with me:</b>{" "}
+          <SocialIcon
+            url="https://www.linkedin.com/in/mofya-ndabala-10a97b138/?originalSubdomain=zm"
+            style={{
+              width: "30px",
+              height: "30px",
+              marginLeft: "5px",
+            }}
+          />
+          <SocialIcon
+            url="https://github.com/HoodLegend"
+            style={{
+              width: "30px",
+              height: "30px",
+              marginLeft: "10px",
+            }}
+            className="github-icons"
+          />
+          <SocialIcon
+            url="https://twitter.com/mofyandabala_27"
+            style={{
+              width: "30px",
+              height: "30px",
+              marginLeft: "10px",
+            }}
+          />
+        </div>
       </div>
+      <br />
+      <hr />
       <div className="footer-note">
-        <p>Mofya Ndabala Production.</p>
+        <p>Mofya Ndabala Production</p>
         <p>Copyright &copy; 2023.</p>
       </div>
     </div>
   );
 };
- 
+
 export default Footer;

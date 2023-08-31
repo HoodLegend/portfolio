@@ -11,7 +11,7 @@ const Home = () => {
               That is passionate and loves problem solving building cool stuff
               and bring ideas to reality.
             </p>
-            <button className="hello-btn">Say Hello 👋</button>
+            <a href="#contact" className="hello-btn">Say Hello 👋</a>
             <a className="works" href="/">
               Resume ↗
             </a>

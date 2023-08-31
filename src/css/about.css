@@ -28,9 +28,10 @@ body {
 
 article h2{
   margin-bottom: 3%;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
+/* fix this when free! there is a collision */
 article p{
   margin-top: 3%;
   margin-bottom: 5%;
@@ -45,8 +46,7 @@ article .resume-btn {
   border-radius: 10px;
   font-size: small;
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
-  margin-top:5%;
-  
+  margin-top:3%;
 }
 
 article a {

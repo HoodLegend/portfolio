@@ -1,10 +1,11 @@
 import screenshot from './images/screenshot.png';
 import './css/projects.css'
+import { Link } from 'react-router-dom'
 
 const Projects = () => {
     return (
       <>
-        <div className="hero">
+        <div className="hero" id="projects">
           <section>
             <h2>My recent Personal Projects</h2>
             <img
@@ -15,7 +16,7 @@ const Projects = () => {
             <br />
             <small>Zedshop</small>
             <br />
-            <a href="/">Ecommerce Web Application</a>
+            <Link to="https://github.com/HoodLegend/zedshop">Ecommerce Web Application</Link>
           </section>
         </div>
       </>

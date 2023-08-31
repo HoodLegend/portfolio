@@ -4,6 +4,11 @@ import { useState } from 'react';
 const Navbar = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
 
+    // Function to close the navbar
+    const closeNavbar = () => {
+      setIsNavExpanded(false);
+    };
+
     return (
       
       <nav className="navigation">
@@ -27,19 +32,16 @@ const Navbar = () => {
         <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
           <ul>
             <li>
-              <a href="/About">About</a>
+              <a href="#about" onClick={closeNavbar}>About</a>
             </li>
             <li>
-              <a href="/Contact">Contact</a>
+              <a href="#services" onClick={closeNavbar}>Services</a>
             </li>
             <li>
-              <a href="/Services">Services</a>
+              <a href="#projects" onClick={closeNavbar}>Projects</a>
             </li>
             <li>
-              <a href="/Services">Projects</a>
-            </li>
-            <li>
-              <a href="/Services">Skills</a>
+              <a href="#skills" onClick={closeNavbar}>Skills</a>
             </li>
           </ul>
         </div>

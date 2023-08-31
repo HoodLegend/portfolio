@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400&display=swap");
 
   .info {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
     font-weight: 400;
     font-size: medium;
   }
@@ -54,10 +54,10 @@
   }
 
   .education {
-    margin: 5px;
+    margin-left: 50px;
 }
 
-.education p {
+.education p{
     color:rgb(180, 180, 211);
     font-weight:600;
 }
@@ -68,6 +68,7 @@
   height:30px;
   margin-top: 10px;
 }
+
 
 
 

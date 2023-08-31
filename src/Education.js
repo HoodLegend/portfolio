@@ -1,4 +1,4 @@
-import './css/education.css';
+
 
 const Education = () => {
     return (

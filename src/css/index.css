@@ -26,7 +26,7 @@ article h1 {
 }
 
 article p{
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   font-weight: 400;
 
 }
@@ -43,6 +43,7 @@ article p{
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
   border: 0;
   margin-right:2%;
+  text-decoration: none;
 }
 
 .works {

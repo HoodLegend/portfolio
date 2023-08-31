@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400&display=swap");
 
 .footer {
-    margin-top: 10%;
+    margin-top: 5%;
     background-color: rgb(19, 19, 82);
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
     border-radius: 15px 15px 0 0;
 
@@ -12,6 +12,7 @@
 
 .footer h1, .footer p {
     margin-left: 7.8%;
+    margin-right: 5%;
 }
 
 .contact-details a{
@@ -42,10 +43,6 @@
     transform-origin: bottom left;
 }
 
-
-
-
-
 .contact-details a:hover {
     text-decoration: underline;
 }
@@ -60,7 +57,7 @@
 
 .footer-note {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 2.5%;
     font-weight: 700;
 }
 

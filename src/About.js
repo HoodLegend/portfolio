@@ -11,9 +11,9 @@ const About = () => {
             Experienced in project completion, Good software development practices and
             Project management <br />
             Expertise in diverse technologies and a problem fixer at heart 😉.<br />Thrives in collaboration , the design process to seamless deployment.<br/>
-            Lets connect and explore how I can contribute to your organization's success. Check out the proof of work <a href="/">here</a>.
+            Lets connect and explore how I can contribute to your organization's success. Check out the proof of work <a href="#projects">here</a>.
             </p>
-            <a href='#about' className='resume-btn'>My Resume ↗</a >
+            <a href='/' className='resume-btn'>My Resume ↗</a >
             </article>
         </div>
      );

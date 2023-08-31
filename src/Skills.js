@@ -13,7 +13,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container" id="skills">
       <div className="skills-section">
         <article>
           <div className="info">
@@ -21,7 +21,7 @@ const Skills = () => {
               onClick={handleClick}
               className="skills-btn"
               style={{
-                marginRight: "10px",
+                marginRight: "10px"
               }}
             >
               Skills ↗
@@ -59,7 +59,7 @@ const Skills = () => {
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                     alt="html-icon"
                   />
-                  <p>HTML 5</p>
+                  <p>HTML5</p>
                 </li>
                 <li>
                   <img
@@ -102,26 +102,19 @@ const Skills = () => {
             <div className="education">
               <p>2018 - present</p>
               <small>Copperbelt University</small>
-              <p>-</p>
               <p>Bsc Computer Science</p>
-              <br />
 
               <p>2014 - 2016</p>
               <small>David Kaunda National Technical School</small>
-              <p>-</p>
               <p>High School Certificate</p>
-              <br />
 
               <p>2012 - 2013</p>
               <small>St. Marys Junior Seminary</small>
-              <p>-</p>
-              <br />
-
+              
               <p>2003 - 2011</p>
               <small>Sun City Primary School</small>
-              <p>-</p>
               <p>Grade 7 Certificate</p>
-              <br />
+              
             </div>
           )}
         </article>
