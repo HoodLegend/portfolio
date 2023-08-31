@@ -4,13 +4,12 @@ import { useState } from 'react';
 const Navbar = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
 
-    // Function to close the navbar
+    // Function to close the navbar after navigation item is clicked.
     const closeNavbar = () => {
       setIsNavExpanded(false);
     };
 
     return (
-      
       <nav className="navigation">
         <a href="/" className="my-name">
           Mofya Ndabala
@@ -46,7 +45,6 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
-      
     );
 }
  
