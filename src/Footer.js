@@ -5,7 +5,6 @@ const Footer = () => {
   return (
     <div className="footer" id="contact">
       <h1>Let's Connect 😉</h1>
-      <hr />
       <br />
       <p>
         I m very open minded , love to solve porblems using tech and lastly a
@@ -80,7 +79,7 @@ const Footer = () => {
         </div>
       </div>
       <br />
-      <hr />
+      
       <div className="footer-note">
         <p>Mofya Ndabala Production</p>
         <p>Copyright &copy; 2023.</p>
