@@ -20,6 +20,11 @@
     width: 50%;
   }
 
+  .skills p {
+    margin-top:2%;
+    margin-bottom:2%;
+  }
+
   .skills-section {
     background-color: rgb(37, 37, 104);
     color:#fff;
@@ -60,6 +65,12 @@
 .education p{
     color:rgb(180, 180, 211);
     font-weight:600;
+    margin-top:2.5%;
+    margin-bottom: 1.5%;
+}
+
+.education small {
+  margin-top:2.5% ;
 }
   
 

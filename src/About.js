@@ -11,7 +11,7 @@ const About = () => {
             Experienced in project completion, Good software development practices and
             Project management <br />
             Expertise in diverse technologies and a problem fixer at heart 😉.<br />Thrives in collaboration , the design process to seamless deployment.<br/>
-            Lets connect and explore how I can contribute to your organization's success. Check out the proof of work <a href="#projects">here</a>.
+            Lets connect and explore how I can contribute to your organization's success. <br /> Check out the proof of work <a href="#projects">here</a>.
             </p>
             <a href='https://docs.google.com/document/d/1-F7EBGKu9q-UjAWuiqZlmWIwn-l8V7dHELPmU9r18Mc/edit' className='resume-btn'>My Resume ↗</a >
             </article>

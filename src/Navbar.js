@@ -31,16 +31,16 @@ const Navbar = () => {
         <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
           <ul>
             <li>
-              <a href="#about" onClick={closeNavbar}>About</a>
+              <a href="#about" onClick={closeNavbar}>about</a>
             </li>
             <li>
-              <a href="#services" onClick={closeNavbar}>Services</a>
+              <a href="#services" onClick={closeNavbar}>services</a>
             </li>
             <li>
-              <a href="#projects" onClick={closeNavbar}>Projects</a>
+              <a href="#projects" onClick={closeNavbar}>projects</a>
             </li>
             <li>
-              <a href="#skills" onClick={closeNavbar}>Skills</a>
+              <a href="#skills" onClick={closeNavbar}>skills</a>
             </li>
           </ul>
         </div>

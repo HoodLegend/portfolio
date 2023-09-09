@@ -1,8 +1,12 @@
 import { useState } from 'react';
 import './css/skills.css';
+import ReactCardFlip from 'react-card-flip';
 
 const Skills = () => {
   const [content, setContent] = useState("Skills");
+  const [flip, setFlip] = useState(false);
+
+
 
   const handleClick = () => {
     if (content === "Skills") {
@@ -15,7 +19,6 @@ const Skills = () => {
   return (
     <div className="container" id="skills">
       <div className="skills-section">
-        <article>
           <div className="info">
             <button
               onClick={handleClick}
@@ -30,6 +33,7 @@ const Skills = () => {
               Education ↗
             </button>
           </div>
+          
           {content === "Skills" ? (
             <div className="skills">
               <ul>
@@ -114,12 +118,11 @@ const Skills = () => {
               <p>2003 - 2011</p>
               <small>Sun City Primary School</small>
               <p>Grade 7 Certificate</p>
-              
             </div>
           )}
-        </article>
+        </div>
       </div>
-    </div>
+   
   );
 };
  
