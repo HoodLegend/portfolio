@@ -120,7 +120,6 @@ const Skills = () => {
           )}          
         </div>
       </div>
-   
   );
 };
  
